@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registrarticket"
+            android:icon="@drawable/ic_profile"
+            android:title="Registrar ticket nuevo" />
+        <item
+            android:id="@+id/nav_consultarestadoticket"
+            android:icon="@drawable/ic_consultar_estado_ticket"
+            android:title="Consultar estado de sus tickets" />
+        <item
+            android:id="@+id/nav_consultartodostickets"
+            android:icon="@drawable/ic_consultar_todos"
+            android:title="Consultar todos los Tickets" />
+        <item
+            android:id="@+id/nav_asignartickettecnico"
+            android:icon="@drawable/ic_asignar_ticket"
+            android:title="Asignar Ticket a técnico" />
+        <item
+            android:id="@+id/nav_reportetickets"
+            android:icon="@drawable/ic_reporte_tickets"
+            android:title="Reporte de Tickets" />
+        <item
+            android:id="@+id/nav_consultarticketsasignados"
+            android:icon="@drawable/ic_consultar_tickets_asignados"
+            android:title="Consultar Tickets Asignados" />
+        <item
+            android:id="@+id/nav_atenderticketsasignados"
+            android:icon="@drawable/ic_atender_tickets_asignados"
+            android:title="Atender Tickets asignados" />
+    </group>
+
+    <item android:title="Usuario">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_profile"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_configuracion"
+                android:icon="@drawable/ic_setting"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/ic_if_common_logout_signout_exit_glyph_763291"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
